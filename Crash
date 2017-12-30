@@ -1,0 +1,268 @@
+Hello my schematica crashes wen i try to load schematica in using 1.8 version of mc crash log 
+
+
+
+
+
+
+
+
+
+how to fix ty.
+[18:29:55] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:29:55] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:29:55] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:29:55] [main/INFO]: Forge Mod Loader version 11.14.4.1577 for Minecraft 1.8 loading
+[18:29:55] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_25, running on Windows 10:amd64:10.0, installed at C:\Program Files (x86)\Minecraft\runtime\jre-x64\1.8.0_25
+[18:29:55] [main/INFO]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.8.0_HD_U_I3.jar
+[18:29:55] [main/INFO]: Loading tweaker net.minecraftxray.loader.XRayTweaker from XRay-4.1.5.jar
+[18:29:55] [main/INFO]: Loading tweaker net.minecraftxray.loader.XRayTweaker from XRay-4.1.5.jar
+[18:29:55] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:29:55] [main/INFO]: Loading tweak class name optifine.OptiFineForgeTweaker
+[18:29:55] [main/INFO]: Loading tweak class name net.minecraftxray.loader.XRayTweaker
+[18:29:55] [main/WARN]: Tweak class name net.minecraftxray.loader.XRayTweaker has already been visited -- skipping
+[18:29:55] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:29:55] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:29:55] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:29:55] [main/INFO]: Calling tweak class optifine.OptiFineForgeTweaker
+[18:29:55] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[18:29:55] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[18:29:55] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:221]: OptiFine ClassTransformer
+[18:29:55] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:221]: OptiFine ZIP file: C:\Users\Mantvydo '-'\AppData\Roaming\.minecraft\mods\OptiFine_1.8.0_HD_U_I3.jar
+[18:29:55] [main/INFO]: Calling tweak class net.minecraftxray.loader.XRayTweaker
+[18:29:56] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:29:57] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[18:29:57] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[18:29:57] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:29:57] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:29:58] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:29:58] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:29:58] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[18:29:58] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[18:29:59] [Client thread/INFO]: Setting user: SWDF
+[18:30:02] [Client thread/INFO]: [OptiFine] *** Reflector Forge ***
+[18:30:02] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[18:30:02] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.doesSideBlockRendering
+[18:30:03] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.client.ForgeHooksClient.applyTransform
+[18:30:03] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.client.ForgeHooksClient.getFOVModifier
+[18:30:03] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.client.ForgeHooksClient.loadEntityShader
+[18:30:03] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.client.ForgeHooksClient.mainMenuMouseClick
+[18:30:03] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.hasFastRenderer
+[18:30:03] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.preDrawBatch
+[18:30:03] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.drawBatch
+[18:30:03] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.client.MinecraftForgeClient.onRebuildChunk
+[18:30:03] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.gui.NotificationModUpdateScreen
+[18:30:03] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.fml.client.registry.RenderingRegistry.loadEntityRenderers
+[18:30:03] [Client thread/INFO]: [OptiFine] *** Reflector Vanilla ***
+[18:30:03] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:30:04] [Client thread/INFO]: [OptiFine] 
+[18:30:04] [Client thread/INFO]: [OptiFine] OptiFine_1.8_HD_U_I3
+[18:30:04] [Client thread/INFO]: [OptiFine] Build: 20171026-155944
+[18:30:04] [Client thread/INFO]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[18:30:04] [Client thread/INFO]: [OptiFine] Java: 1.8.0_25, Oracle Corporation
+[18:30:04] [Client thread/INFO]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[18:30:04] [Client thread/INFO]: [OptiFine] LWJGL: 2.9.1
+[18:30:04] [Client thread/INFO]: [OptiFine] OpenGL: Intel(R) HD Graphics 4600, version 4.3.0 - Build 10.18.15.4248, Intel
+[18:30:04] [Client thread/INFO]: [OptiFine] OpenGL Version: 4.3.0
+[18:30:04] [Client thread/INFO]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
+[18:30:04] [Client thread/INFO]: [OptiFine] Maximum texture size: 8192x8192
+[18:30:04] [Thread-7/INFO]: [OptiFine] Checking for new version
+[18:30:04] [Client thread/INFO]: [Shaders] ShadersMod version: 2.4.12
+[18:30:04] [Client thread/INFO]: [Shaders] OpenGL Version: 4.3.0 - Build 10.18.15.4248
+[18:30:04] [Client thread/INFO]: [Shaders] Vendor:  Intel
+[18:30:04] [Client thread/INFO]: [Shaders] Renderer: Intel(R) HD Graphics 4600
+[18:30:04] [Client thread/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[18:30:04] [Client thread/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[18:30:04] [Client thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[18:30:04] [Client thread/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[18:30:04] [Client thread/INFO]: [Shaders] Load ShadersMod configuration.
+[18:30:04] [Client thread/INFO]: [Shaders] Save ShadersMod configuration.
+[18:30:04] [Client thread/INFO]: [Shaders] Shaders can not be loaded, Fast Render is enabled.
+[18:30:04] [Client thread/INFO]: [Shaders] No shaderpack loaded.
+[18:30:04] [Client thread/INFO]: Forge Mod Loader has detected optifine OptiFine_1.8_HD_U_I3, enabling compatibility features
+[18:30:04] [Client thread/INFO]: [net.minecraftforge.fml.client.SplashProgress:start:246]: ---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+Contact their authors BEFORE contacting forge
+
+// Ooh. Shiny.
+
+Time: 12/30/17 6:30 PM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_25, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 270421632 bytes (257 MB) / 536870912 bytes (512 MB) up to 1073741824 bytes (1024 MB)
+	JVM Flags: 8 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx1G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'Intel' Version: '4.3.0 - Build 10.18.15.4248' Renderer: 'Intel(R) HD Graphics 4600'
+[18:30:04] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[18:30:04] [Client thread/INFO]: MinecraftForge v11.14.4.1577 Initialized
+[18:30:04] [Client thread/INFO]: Replaced 204 ore recipies
+[18:30:04] [Client thread/INFO]: Completed early MinecraftForge initialization
+[18:30:04] [Thread-7/INFO]: [OptiFine] Version found: H8
+[18:30:04] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[18:30:04] [Client thread/INFO]: Searching C:\Users\Mantvydo '-'\AppData\Roaming\.minecraft\mods for mods
+[18:30:04] [Client thread/INFO]: Also searching C:\Users\Mantvydo '-'\AppData\Roaming\.minecraft\mods\1.8 for mods
+[18:30:06] [Client thread/INFO]: Forge Mod Loader has identified 5 mods to load
+[18:30:06] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, LunatriusCore, Schematica] at CLIENT
+[18:30:06] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, LunatriusCore, Schematica] at SERVER
+[18:30:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:LunatriusCore, FMLFileResourcePack:Schematica
+[18:30:07] [Client thread/INFO]: Processing ObjectHolder annotations
+[18:30:07] [Client thread/INFO]: Found 384 ObjectHolder annotations
+[18:30:07] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[18:30:07] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[18:30:07] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[18:30:07] [Forge Version Check/INFO]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[18:30:07] [Client thread/INFO]: Applying holder lookups
+[18:30:07] [Client thread/INFO]: Holder lookups applied
+[18:30:07] [Client thread/INFO]: Injecting itemstacks
+[18:30:07] [Client thread/INFO]: Itemstack injection complete
+[18:30:07] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[18:30:07] [Client thread/INFO]: [OptiFine] Resource packs: Default
+[18:30:07] [Client thread/INFO]: [tv.twitch.StandardCoreAPI:<init>:16]: If on Windows, make sure to provide all of the necessary dll's as specified in the twitchsdk README. Also, make sure to set the PATH environment variable to point to the directory containing the dll's.
+[18:30:07] [Client thread/ERROR]: Couldn't initialize twitch stream
+[18:30:07] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[18:30:07] [Forge Version Check/INFO]: [Forge] Found status: AHEAD Target: null
+[18:30:07] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[18:30:07] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:30:07] [Thread-10/INFO]: OpenAL initialized.
+[18:30:08] [Sound Library Loader/INFO]: Sound engine started
+[18:30:09] [Client thread/INFO]: [OptiFine] Mipmap levels: 4
+[18:30:09] [Client thread/INFO]: [OptiFine] Multitexture: false
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[18:30:09] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[18:30:10] [Client thread/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[18:30:10] [Client thread/INFO]: Created: 16x16 textures-atlas
+[18:30:11] [Client thread/INFO]: Injecting itemstacks
+[18:30:11] [Client thread/INFO]: Itemstack injection complete
+[18:30:11] [Client thread/INFO]: Forge Mod Loader has successfully loaded 5 mods
+[18:30:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:LunatriusCore, FMLFileResourcePack:Schematica
+[18:30:11] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[18:30:11] [Client thread/INFO]: [OptiFine] Resource packs: Default
+[18:30:11] [Client thread/INFO]: SoundSystem shutting down...
+[18:30:11] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[18:30:11] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[18:30:11] [LunatriusCore Version Check/INFO]: Schematica is up to date!
+[18:30:11] [LunatriusCore Version Check/INFO]: LunatriusCore is up to date!
+[18:30:11] [Thread-12/INFO]: Initializing LWJGL OpenAL
+[18:30:11] [Thread-12/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:30:11] [Thread-12/INFO]: OpenAL initialized.
+[18:30:12] [Sound Library Loader/INFO]: Sound engine started
+[18:30:12] [Client thread/INFO]: [OptiFine] Mipmap levels: 4
+[18:30:12] [Client thread/INFO]: [OptiFine] Multitexture: false
+[18:30:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[18:30:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
+[18:30:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[18:30:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
+[18:30:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+[18:30:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
+[18:30:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+[18:30:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
+[18:30:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[18:30:12] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[18:30:13] [Client thread/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[18:30:13] [Client thread/INFO]: [OptiFine] Custom loader: TextureAtlasSprite{name='minecraft:white', frameCount=1, rotated=false, x=0, y=0, height=16, width=16, u0=6.25E-4, u1=0.999375, v0=6.25E-4, v1=0.999375}
+[18:30:14] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[18:30:18] [Client thread/INFO]: [OptiFine] *** Reloading custom textures ***
+[18:30:18] [Client thread/INFO]: [OptiFine] Enable face culling: acacia_leaves, birch_leaves, dark_oak_leaves, jungle_leaves, oak_leaves, spruce_leaves
+[18:30:33] [Netty Client IO #3/INFO]: Attempting connection with missing mods [mcp, FML, Forge, LunatriusCore, Schematica] at SERVER
+[18:30:33] [Netty Client IO #2/INFO]: Attempting connection with missing mods [mcp, FML, Forge, LunatriusCore, Schematica] at SERVER
+[18:30:38] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[18:30:38] [Server thread/INFO]: Generating keypair
+[18:30:38] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[18:30:38] [Server thread/INFO]: Applying holder lookups
+[18:30:38] [Server thread/INFO]: Holder lookups applied
+[18:30:38] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@21d2ab95)
+[18:30:38] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@21d2ab95)
+[18:30:38] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@21d2ab95)
+[18:30:38] [Server thread/INFO]: Preparing start region for level 0
+[18:30:40] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[18:30:40] [Netty Server IO #1/INFO]: Client protocol version 2
+[18:30:40] [Netty Server IO #1/INFO]: Client attempting to join with 5 mods : FML@8.0.99.99,Schematica@1.7.7.140,Forge@11.14.4.1577,mcp@9.05,LunatriusCore@1.1.2.30
+[18:30:40] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[18:30:40] [Server thread/INFO]: [Server thread] Server side modded connection established
+[18:30:40] [Server thread/INFO]: SWDF[local:E:e2fabb5b] logged in with entity id 145 at (1455.215318837466, 6.1719729977304825, -708.023828201606)
+[18:30:40] [Server thread/INFO]: SWDF joined the game
+[18:30:43] [Server thread/INFO]: Saving and pausing game...
+[18:30:43] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:30:43] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:30:43] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:30:44] [Server thread/INFO]: Saving and pausing game...
+[18:30:44] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:30:45] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:30:45] [Server thread/INFO]: Saving chunks for level 'New World'/The End
